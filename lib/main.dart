@@ -25,7 +25,6 @@ class MyApp extends StatelessWidget {
                 bodyLarge: const TextStyle(color: bodyTextColor),
                 bodyMedium: const TextStyle(color: bodyTextColor)),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
-        useMaterial3: true,
       ),
       home: const MainScreen(),
     );
